@@ -1,0 +1,18 @@
+
+{
+  "short_name": "Zad AI",
+  "name": "Zad AI Studio",
+  "description": "استوديو متكامل لإنشاء المحتوى الإسلامي. ولّد النصوص، وصمم الصور، وأنتج الفيديوهات بالذكاء الاصطناعي، كل ذلك في مكان واحد.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#f1f5f9",
+  "scope": "/"
+}

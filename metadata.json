@@ -1,0 +1,7 @@
+{
+  "name": "Zad AI Studio | استوديو زاد AI",
+  "description": "An all-in-one AI-powered studio to generate, edit, and produce inspiring Islamic video content for YouTube and social media. Create scripts, generate AI visuals, add voiceovers, and more.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

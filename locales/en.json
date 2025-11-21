@@ -1,0 +1,743 @@
+{
+  "global": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "submit": "Submit",
+    "close": "Close",
+    "searchPlaceholder": "Search...",
+    "page": "Page",
+    "of": "of",
+    "download": "Download",
+    "share": "Share",
+    "shareNotSupported": "Sharing is not supported on this browser.",
+    "shareError": "Could not share the file.",
+    "back": "Back",
+    "backToDashboard": "Back to Dashboard",
+    "upload": "Upload",
+    "or": "OR",
+    "deleteTooltip": "Delete this item",
+    "edit": "Edit",
+    "save": "Save",
+    "copyButton": "Copy"
+  },
+  "contentType": {
+      "hadithQudsi": { "label": "Hadith Qudsi" },
+      "riyadSalihin": { "label": "Riyad as-Salihin" },
+      "propheticBiography": { "label": "Prophetic Biography" },
+      "propheticManners": { "label": "Prophetic Manners" },
+      "storiesOfCompanions": { "label": "Stories of Companions" },
+      "quranicStories": { "label": "Quranic Stories" },
+      "quranicParables": { "label": "Quranic Parables" },
+      "storiesOfTheProphets": { "label": "Stories of Prophets" },
+      "namesOfAllah": { "label": "Names of Allah" },
+      "spiritualExhortations": { "label": "Spiritual Exhortations" },
+      "respondToMisconceptions": { "label": "Respond to Misconceptions" },
+      "comparativeReligion": { "label": "Comparative Religion" },
+      "globalCultureBridge": { "label": "Global Culture Bridge" },
+      "generateDua": { "label": "Generate Dua" },
+      "occasionGreetings": { "label": "Occasion Greetings" },
+      "dailyGreetings": { "label": "Daily Greetings" },
+      "childrenStories": { "label": "Children's Stories" },
+      "youtubeScript": { "label": "YouTube Script" },
+      "podcastScript": { "label": "Podcast Script" },
+      "blogOutline": { "label": "Blog Outline" },
+      "arabicForForeigners": { "label": "Arabic for Foreigners" },
+      "tajweedRules": { "label": "Tajweed Rules" },
+      "stockMarketAnalysis": { "label": "Financial Education" },
+      "lessonPlan": { "label": "Lesson Plan" },
+      "educationalVideoScript": { "label": "Educational Video" },
+      "appTutorial": { "label": "App Tutorial" },
+      "socialMediaCampaign": { "label": "Social Media Campaign" },
+      "adCopy": { "label": "Ad Copy" },
+      "seoArticle": { "label": "SEO Article" },
+      "emailNewsletter": { "label": "Email Newsletter" },
+      "productDescription": { "label": "Product Description" },
+      "quranVerse": { "label": "Quran Verse" },
+      "quranicAudioStories": { "label": "Audio Stories" },
+      "adhkar": { "label": "Adhkar" }
+  },
+  "contentTypeGroups": {
+      "islamic": "Islamic & Da'wah",
+      "marketing": "Marketing & Business",
+      "creator": "Content Creators",
+      "educational": "Education & Knowledge",
+      "greetings": "Greetings & Occasions"
+  },
+  "educationalLevels": {
+      "kindergarten": "Kindergarten",
+      "elementary": "Elementary School",
+      "middle": "Middle School",
+      "high": "High School",
+      "university": "University"
+  },
+  "header": {
+    "title": "Zad AI Studio",
+    "subtitle": "Your AI-powered studio for creating faith-based content.",
+    "login": "Login",
+    "logout": "Logout",
+    "installApp": "Download App",
+    "improveApp": "Improve App",
+    "deployApp": "Deploy App",
+    "watchTutorial": "Watch Tutorial",
+    "docsTooltip": "Documentation & Guide",
+    "moreOptions": "More Options",
+    "themeTooltipLight": "Switch to Light Mode",
+    "themeTooltipDark": "Switch to Dark Mode",
+    "languageTooltip": "Change Language",
+    "loginTooltip": "Login to save your projects",
+    "logoutTooltip": "Logout from your account",
+    "upgrade": "Upgrade",
+    "upgradeTooltip": "View Pricing Plans"
+  },
+  "footer": {
+      "rightsReserved": "All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "systemOnline": "Systems Online",
+      "version": "Version",
+      "poweredBy": "Powered By"
+  },
+  "dashboard": {
+    "title": "Control Panel",
+    "credits": {
+        "title": "Daily Credits",
+        "remaining": "{{max}} remaining / day",
+        "refill": "Refill Credits"
+    },
+    "smartSuggestion": {
+        "morning": {
+            "title": "Good Morning! ☀️",
+            "desc": "Start your day with Morning Adhkar and spiritual reflections.",
+            "button": "Generate Adhkar"
+        },
+        "friday": {
+            "title": "Blessed Friday 🕌",
+            "desc": "Remind your followers to read Surah Al-Kahf and send prayers.",
+            "button": "Create Friday Post"
+        },
+        "evening": {
+            "title": "Quiet Night 🌙",
+            "desc": "Create a peaceful bedtime story or Witr prayer reminder.",
+            "button": "Generate Night Content"
+        }
+    },
+    "creatorStudio": {
+      "title": "Content Creation Studio",
+      "description": "Generate scripts, create visuals, add voiceovers, and produce your video content.",
+      "button": "Enter Studio"
+    },
+    "myProjects": {
+      "title": "My Projects",
+      "description": "Access, manage, and continue working on all your saved projects.",
+      "button": "Open Projects"
+    },
+    "scheduler": {
+      "description": "Schedule and automate future content generation.",
+      "button": "Manage Schedule"
+    },
+    "liveStream": {
+      "description": "Broadcast to YouTube, Facebook, TikTok, and more.",
+      "button": "Go Live",
+      "beta": "BETA"
+    },
+    "community": {
+      "title": "Zad Community",
+      "description": "Explore inspiring projects from other creators and remix their templates.",
+      "button": "Browse Gallery",
+      "new": "New"
+    },
+    "cardTooltip": "Click to enter the {{section}} section"
+  },
+  "marketplace": {
+      "title": "Zad Store",
+      "hero": {
+          "title": "Premium Creative Tools",
+          "desc": "Level up your content with exclusive templates, 4K backgrounds, and professionally designed avatars."
+      },
+      "categories": {
+          "all": "All",
+          "template": "Templates",
+          "background": "Backgrounds",
+          "avatar": "Avatars",
+          "audio": "Audio"
+      },
+      "items": {
+          "ramadan2025": { "title": "Ramadan 2025 Pack", "desc": "Video templates and scripts ready for the holy month." },
+          "newsOpener": { "title": "News Opener", "desc": "Professional intro for breaking news and serious content." },
+          "4kNature": { "title": "4K Nature Pack", "desc": "10 ultra-HD natural backgrounds for meditation." },
+          "wiseScholar": { "title": "The Scholar (Avatar)", "desc": "3D character of a wise man for storytelling." },
+          "cinematicPack": { "title": "Cinematic FX", "desc": "Audio library for dramatic effects and scores." }
+      },
+      "free": "Free",
+      "unlock": "Unlock Now",
+      "use": "Use",
+      "saved": "In Library",
+      "itemDownloaded": "Item added to your library!"
+  },
+  "profile": {
+      "levelLabel": "Creator Level: {{level}}",
+      "guest": "Guest Creator",
+      "locked": "Locked - Keep creating to unlock"
+  },
+  "achievements": {
+      "beginner": { "title": "The Beginning", "desc": "Started your creative journey" },
+      "creator_lvl1": { "title": "Emerging Creator", "desc": "Created 5 content projects" },
+      "global_voice": { "title": "Global Voice", "desc": "Created content that speaks to the world (Cultural Bridges)" },
+      "peace_builder": { "title": "Peace Builder", "desc": "Created content that corrects misconceptions or builds bridges" }
+  },
+  "community": {
+      "title": "Zad Community Showcase",
+      "all": "All",
+      "by": "By",
+      "cloneButton": "Clone Project to Edit",
+      "views": "Views",
+      "likes": "Likes"
+  },
+  "docs": {
+    "title": "Documentation & Guide",
+    "subtitle": "Comprehensive guide for all features and stability instructions",
+    "tabs": {
+        "guide": "User Guide",
+        "technical": "Technical Details",
+        "troubleshoot": "Troubleshooting",
+        "deployment": "Deployment"
+    },
+    "guide": {
+        "tutorialVideo": {
+            "title": "Watch the Magic Happen!",
+            "desc": "Want to see this app explain itself? Click below to let the AI generate a full, high-energy promo video showcasing all features right before your eyes.",
+            "button": "🎬 Generate Promo Video"
+        },
+        "generator": {
+            "title": "1. Smart Content Generator",
+            "desc": "Choose a content category (Faith, Education, Marketing). AI (Gemini 2.5) generates a full script including title, scenes, hashtags, and tips."
+        },
+        "editor": {
+            "title": "2. Comprehensive Editor",
+            "desc": "Edit generated text, translate to multiple languages, and create interactive audience quizzes."
+        },
+        "video": {
+            "title": "3. Client-Side Video Engine",
+            "desc": "Create videos directly in your browser without external servers. Choose between 'Slideshow' or 'Avatar Presenter' styles."
+        },
+        "live": {
+            "title": "4. Live Streaming Hub",
+            "desc": "Manage YouTube streams via API or get RTMP settings for Facebook and TikTok."
+        }
+    },
+    "technical": {
+        "rendering": {
+            "title": "Critical Note on Video Generation",
+            "desc": "Video creation happens *locally* on your device using Canvas & MediaRecorder. This consumes RAM/CPU. You MUST keep the tab open and active during generation to prevent stopping."
+        },
+        "api": {
+            "desc": "Uses Google Gemini API for text/image generation. Ensure your API key is valid."
+        },
+        "audio": {
+            "desc": "Uses Web Audio API to mix voiceover and background music seamlessly."
+        }
+    },
+    "deployment": {
+        "intro": "How to publish this application to the web (for developers).",
+        "prerequisites": "Prerequisites",
+        "env": "Environment Variables (.env)",
+        "build": "Installation & Build",
+        "buildDesc": "This creates a 'dist' folder ready for upload.",
+        "hosting": "Hosting Providers",
+        "hostingDesc": "You can deploy the 'dist' folder to any static hosting service."
+    },
+    "troubleshoot": {
+        "crash": {
+            "title": "App Crash / White Screen",
+            "desc": "If the app stops suddenly, it's usually browser memory exhaustion during high-res video processing.",
+            "tip1": "Reduce video resolution (Use 720p instead of 1080p).",
+            "tip2": "Close other unused browser tabs.",
+            "tip3": "Use Chrome or Edge for best performance."
+        },
+        "generation": {
+            "title": "Generation Fails Repeatedly",
+            "desc": "If generation fails, check your internet connection and wait a minute before retrying (to avoid Google API rate limits)."
+        }
+    }
+  },
+  "welcomeScreen": {
+    "subtitle": "Your comprehensive tool for creating, editing, producing, and publishing inspiring Islamic content, all in one place.",
+    "button": "Get Started"
+  },
+  "loginModal": {
+    "title": "Login (Optional)",
+    "subtitle": "Save your settings and continue your work easily.",
+    "emailLabel": "Email:",
+    "emailPlaceholder": "your.email@example.com",
+    "error": "Please enter a valid email.",
+    "loginButton": "Login"
+  },
+  "feedbackModal": {
+    "title": "Improve the App!",
+    "subtitle": "Have an idea or a suggestion? Let us know! Our AI assistant will review your feedback.",
+    "placeholder": "Type your great idea here...",
+    "submit": "Send Idea",
+    "submitting": "Sending...",
+    "successTitle": "Thank You!",
+    "close": "Close"
+  },
+  "deployModal": {
+    "title": "Deploy Application",
+    "subtitle": "This will start the process of packaging and deploying the application for production use.",
+    "start": "Start Deployment",
+    "deploying": "Deployment in Progress...",
+    "step1": "Packaging application files...",
+    "step2": "Optimizing assets for performance...",
+    "step3": "Deploying to production servers...",
+    "successTitle": "Deployment Successful!",
+    "successMessage": "The application has been successfully deployed and is now live.",
+    "close": "Done",
+    "liveUrlLabel": "Live URL",
+    "visitSite": "Visit Site",
+    "developerNote": "Have the source code? Learn how to do a real deployment:",
+    "viewRealGuide": "View Technical Deployment Guide",
+    "quickStepsTitle": "Quick Steps to Deploy:"
+  },
+  "sidePanel": {
+    "generator": "Generator",
+    "studio": "My Studio",
+    "hadithLibrary": "Hadith Library",
+    "quranLibrary": "Quran Library",
+    "backgroundLibrary": "Background Library",
+    "scheduler": "Scheduler",
+    "liveStream": "Live Stream",
+    "community": "Community",
+    "marketplace": "Zad Store"
+  },
+  "studioManager": {
+    "title": "My Projects Studio",
+    "noProjects": "You have no saved projects yet. Go to the 'Generator' to create new content!",
+    "loadProject": "Load",
+    "renameProject": "Rename",
+    "deleteProject": "Delete",
+    "deleteConfirm": "Are you sure you want to permanently delete this project?",
+    "renamePrompt": "Enter new project name:",
+    "createdAt": "Created at:",
+    "loadProjectTooltip": "Load this project into the editor",
+    "renameProjectTooltip": "Rename this project",
+    "deleteProjectTooltip": "Permanently delete this project"
+  },
+  "generatorControls": {
+    "title": "Choose the Content Type for Today",
+    "generateTooltip": "Generate",
+    "scheduleTooltip": "Schedule \"{{label}}\"",
+    "customTopicPlaceholder": "Or enter a specific topic (optional)",
+    "learningYearLabel": "Target Audience:"
+  },
+  "contentEditor": {
+    "title": "Content Editor",
+    "placeholderTitle": "Start by selecting a source from the right panel (Generator or Libraries) to begin creating your content.",
+    "placeholderIconLabel": "writing hand",
+    "suggestedTitleLabel": "Suggested Title",
+    "explanationLabel": "Explanation and Clarification",
+    "scenesTitle": "Content Scenes",
+    "sceneLabel": "Scene {{number}}",
+    "scriptLabel": "Script Text",
+    "visualSuggestionLabel": "Visual Suggestion",
+    "generatingContent": "Generating content...",
+    "tryAgain": "Try Again",
+    "audioStoryToolsTitle": "Audio Story Tools",
+    "generateAudioButton": "Generate Audio Clip",
+    "generatingAudio": "Generating audio...",
+    "audioElementNotSupported": "Your browser does not support the audio element.",
+    "translateButton": "Translate",
+    "translating": "Translating...",
+    "showOriginalButton": "Show Original Text",
+    "showTranslationButton": "Show Translation",
+    "copyButton": "Copy Text",
+    "copied": "Copied!",
+    "exportButton": "Export as Text File",
+    "createVideoDirectly": "Create Video Directly",
+    "generateVisualsButton": "Generate Visuals",
+    "engagementTools": {
+      "title": "Engagement Tools",
+      "generateQuizButton": "Generate Interactive Quiz",
+      "generatingQuiz": "Generating Quiz...",
+      "copyQuizButton": "Copy Quiz for Polls",
+      "correctAnswer": "Correct Answer"
+    },
+    "translateTooltip": "Translate content to other languages.",
+    "copyTooltip": "Copy the title, script, and hashtags to your clipboard.",
+    "exportTooltip": "Download the script as a .txt file.",
+    "deleteTooltip": "Clear the current content and start over.",
+    "generateAudioTooltip": "Generate a full audio story (for audio-only content types).",
+    "generateQuizTooltip": "Generate a multiple-choice question based on the content to engage your audience."
+  },
+  "publishingPanel": {
+    "title": "Video & Publishing Tools",
+    "placeholderTitle": "Once content is generated, video creation tools will appear here.",
+    "placeholderIconLabel": "video camera",
+    "generatingPreview": "Generating preview...",
+    "previewNotGenerated": "Preview has not been generated.",
+    "advancedSettings": "Advanced Settings",
+    "resolutionLabel": "Resolution:",
+    "aspectRatioLabel": "Aspect Ratio:",
+    "frameRateLabel": "Frame Rate:",
+    "musicLabel": "Background Music:",
+    "visualEffectsLabel": "Visual Effect:",
+    "createVideoButton": "Create Final Video",
+    "uploadAudio": "Upload Audio File",
+    "storyboard": {
+      "title": "Video Storyboard",
+      "generating": "Generating...",
+      "notGenerated": "Image not generated",
+      "imageAlt": "Visual for scene {{sceneId}}",
+      "regenerate": "Regenerate Image",
+      "downloadImage": "Download Image",
+      "shareImage": "Share Image",
+      "shareTitle": "Image from Zad AI Studio",
+      "uploadTooltip": "Upload your own image for this scene."
+    },
+    "videoStyle": {
+        "title": "Video Style",
+        "slideshow": "Image Slideshow",
+        "avatar": "Avatar Presenter"
+    },
+    "slideshow": {
+        "title": "Step 1: Visuals",
+        "generateAllTooltip": "Generate an AI image for every scene based on its text and visual suggestion.",
+        "regenerateAllTooltip": "Regenerate all scene images. This will replace existing ones."
+    },
+    "avatar": {
+        "title": "Step 1: Design Avatar",
+        "promptLabel": "Describe the character you want (e.g., a wise man with a white beard)",
+        "button": "Generate Avatar",
+        "generating": "Designing Avatar...",
+        "uploadButton": "Upload Image",
+        "or": "OR",
+        "removeBackground": "Remove Background",
+        "removingBackground": "Removing...",
+        "saveToLibrary": "Save to Library",
+        "savedToLibrary": "Saved",
+        "libraryTitle": "Your Avatar Library",
+        "libraryEmpty": "No saved avatars yet.",
+        "backgroundTitle": "Step 2: Design Background",
+        "backgroundPromptLabel": "Describe the background you want (optional)",
+        "backgroundButton": "Generate Background",
+        "generatingBackground": "Generating...",
+        "chooseFromLibrary": "Or Choose from Background Library",
+        "interactivePreviewTitle": "Step 3: Layout & Preview",
+        "compositor": {
+            "controls": "Avatar Controls",
+            "size": "Size",
+            "posX": "Pos X",
+            "posY": "Pos Y",
+            "reset": "Reset"
+        },
+        "finalStepTitle": "Step 5: Audio & Final Creation",
+        "createVideoTitle": "Create Video",
+        "previewWithAudioButton": "Preview Video with Audio",
+        "generateTooltip": "Generate an AI avatar based on your description.",
+        "uploadTooltip": "Upload your own avatar image.",
+        "removeBgTooltip": "Automatically remove the background from the avatar image.",
+        "saveToLibraryTooltip": "Save the current avatar to your personal library for future use.",
+        "bgGenerateTooltip": "Generate an AI background image.",
+        "bgUploadTooltip": "Upload your own background image.",
+        "visualPreviewTooltip": "Generate a static image preview of how the avatar, background, and text will look together.",
+        "downloadAvatar": "Download Avatar",
+        "shareAvatar": "Share Avatar",
+        "downloadBackground": "Download Background",
+        "shareBackground": "Share Background",
+        "downloadPreview": "Download Preview",
+        "sharePreview": "Share Preview",
+        "shareTitle": "Avatar from Zad AI Studio",
+        "shareBackgroundTitle": "Background from Zad AI Studio",
+        "sharePreviewTitle": "Visual Preview from Zad AI Studio"
+    },
+    "step1": {
+      "title": "Step 1: Visuals",
+      "button": "Generate All Images",
+      "generating": "Generating Images...",
+      "promptLabel": "Visual Suggestion (Editable)",
+      "regenerateButton": "Re-generate All Images"
+    },
+    "audio": {
+        "generateTooltip": "Generate an AI voiceover from the script",
+        "regenerateTooltip": "Generate the AI voiceover again",
+        "uploadTooltip": "Upload a pre-recorded voiceover file"
+    },
+    "step2": {
+      "title": "Step 2: Audio",
+      "button": "Generate Voiceover",
+      "generating": "Generating Audio...",
+      "scriptLabel": "Audio Script (Editable)",
+      "regenerateButton": "Re-generate Audio"
+    },
+    "music": {
+        "title": "Step 3: Background Music",
+        "promptLabel": "Describe the mood for the music (e.g., spiritual, calm, hopeful)",
+        "button": "Generate Music",
+        "generating": "Generating Music...",
+        "regenerateButton": "Re-generate Music",
+        "generateTooltip": "Generate AI background music based on the prompt",
+        "regenerateTooltip": "Generate new background music",
+        "downloadMusic": "Download Music",
+        "shareMusic": "Share Music",
+        "shareTitle": "Background music from Zad AI Studio"
+    },
+    "watermark": {
+        "title": "Watermark",
+        "upload": "Upload Logo",
+        "remove": "Remove Watermark",
+        "position": "Position",
+        "opacity": "Opacity",
+        "size": "Size",
+        "sizeOptions": {
+            "small": "S",
+            "medium": "M",
+            "large": "L"
+        },
+        "positionOptions": {
+            "topLeft": "Top-Left",
+            "topRight": "Top-Right",
+            "bottomLeft": "Bottom-Left",
+            "bottomRight": "Bottom-Right"
+        }
+    },
+    "step3": {
+      "title": "Step 4: Combine & Create",
+      "previewButton": "Preview Visuals (Silent)"
+    },
+    "final": {
+        "previewTooltip": "Generate a silent video preview with just the images and text.",
+        "createTooltip": "Combine images, voiceover, and music into the final video."
+    },
+    "progress": {
+        "title": "Generating Your Video...",
+        "loadingFFmpeg": "Loading video engine...",
+        "writingFiles": "Preparing assets...",
+        "analyzingAudio": "Analyzing audio duration...",
+        "processingScenes": "Processing video scenes...",
+        "encoding": "Encoding video...",
+        "finishing": "Finalizing..."
+    }
+  },
+  "backgrounds": {
+      "geometricTeal": "Teal Geometric Pattern",
+      "geometricGold": "Gold Luxury Pattern",
+      "geometricBlueGold": "Royal Blue & Gold",
+      "archMosque": "Mosque Archway",
+      "archCourtyard": "Serene Courtyard",
+      "archMinaret": "Minaret Silhouette",
+      "calligraphyAbstract": "Abstract Calligraphy",
+      "quranOpen": "Quran on Stand",
+      "natureSerene": "Serene Nature",
+      "natureMountains": "Majestic Mountains",
+      "lanternRamadan": "Ramadan Lantern",
+      "arabesque": "Classic Arabesque"
+  },
+  "backgroundLibrary": {
+    "title": "Islamic Backgrounds",
+    "searchPlaceholder": "Search backgrounds...",
+    "noResults": "No backgrounds found.",
+    "categories": {
+        "all": "All",
+        "geometric": "Geometric",
+        "architecture": "Architecture",
+        "calligraphy": "Calligraphy",
+        "nature": "Nature"
+    },
+    "useButton": "Use in Project",
+    "downloadButton": "Download"
+  },
+  "videoPlayer": {
+    "title": "Your Video is Ready!",
+    "previewTitle": "Visual Preview",
+    "backToEditor": "Back to Editor",
+    "download": "Download Video",
+    "share": "Share",
+    "shareFallback": {
+      "alert": "Video info copied to clipboard! You can now paste it and upload your video.",
+      "notSupported": "Sharing is not supported on this browser.",
+      "error": "Could not share the video."
+    },
+    "shareHelpText": {
+        "native": "Share video and text to other apps.",
+        "desktop": "Opens share options for desktop."
+    },
+    "playPauseTooltip": "Play/Pause",
+    "downloadTooltip": "Download video options",
+    "shareTooltip": "Share the video and text to social media"
+  },
+  "hadithLibrary": {
+    "title": "Hadith Library",
+    "searchPlaceholder": "Search in title or text...",
+    "noResults": "No results for \"{{searchTerm}}\".",
+    "noHadithsInCategory": "There are currently no hadiths in this section.",
+    "bookmarksTab": "Bookmarks",
+    "bookmarkTooltipAdd": "Add to bookmarks",
+    "bookmarkTooltipRemove": "Remove from bookmarks",
+    "noBookmarks": "You haven't bookmarked any hadiths yet."
+  },
+  "quranLibrary": {
+    "title": "Quran Library",
+    "loadingSurahs": "Loading list of Surahs...",
+    "loadingSurah": "Loading Surah {{surahName}}...",
+    "fetchSurahError": "Could not load data for Surah {{surahName}}.",
+    "selectSurah": "Select a Surah...",
+    "searchPlaceholder": "Search in verse text or number...",
+    "surahNumber": "Surah No:",
+    "ayahCount": "Ayah Count:",
+    "listen": "▶️ Listen",
+    "pause": "⏸️ Pause",
+    "noResults": "No results for \"{{searchTerm}}\" in Surah {{surahName}}.",
+    "versesSelected": "{{count}} verses selected",
+    "generateFromSelection": "Create Content from Selection",
+    "playAudioTooltip": "Listen to the recitation of this Ayah"
+  },
+  "scheduler": {
+    "title": "Scheduled Task Manager",
+    "noJobs": "No scheduled tasks. You can schedule content from the \"Content Generator\" section.",
+    "scheduledAt": "Scheduled at",
+    "status": {
+      "scheduled": "Scheduled",
+      "completed": "Completed",
+      "failed": "Failed"
+    },
+    "reason": "Reason",
+    "viewContent": "View Content"
+  },
+  "scheduleModal": {
+    "title": "Schedule Content: {{label}}",
+    "description": "Choose the date and time for the content to be generated automatically.",
+    "timeLabel": "Schedule Time:",
+    "errorDateInPast": "The schedule date must be in the future."
+  },
+  "liveStream": {
+    "title": "YouTube Live Stream Management",
+    "hubTitle": "Live Streaming Center",
+    "beta": "BETA",
+    "youtube": {
+        "connectTitle": "Connect YouTube Account"
+    },
+    "signInPrompt": "Please sign in with your Google account to authorize management of your YouTube channel's live streams.",
+    "signInButton": "Sign In with Google",
+    "initializingGoogle": "Initializing Google...",
+    "welcome": "Welcome, {{name}}",
+    "scheduleNew": "📅 Schedule New Broadcast",
+    "broadcastList": "Broadcast List",
+    "loadingBroadcasts": "Loading broadcasts...",
+    "broadcastDetails": "Selected Broadcast Details",
+    "selectBroadcastPrompt": "Select a broadcast from the list to see its details.",
+    "status": "Status",
+    "loadingStreamKey": "Fetching stream key...",
+    "serverUrl": "Stream Server URL:",
+    "streamKey": "Stream Key:",
+    "startBroadcast": "Start Broadcast",
+    "endBroadcast": "End Broadcast",
+    "youtubeTab": "YouTube",
+    "facebookTab": "Facebook",
+    "tiktokTab": "TikTok",
+    "twitterTab": "Twitter (X)",
+    "instagramTab": "Instagram",
+    "genericTab": "Generic RTMP",
+    "streamingHub": {
+      "title": "{{platform}} Stream Setup",
+      "instructions": "Go to your {{platform}} Live Dashboard to get your credentials. Copy your Server URL and Stream Key, then paste them below and save for easy access next time.",
+      "guideTitle": "How to Connect & Stream (Step-by-Step)",
+      "steps": {
+        "1": "Copy the <b>Server URL</b> and <b>Stream Key</b> from above.",
+        "2": "Open your streaming software (e.g., OBS Studio, Streamlabs, vMix).",
+        "3": "Go to <b>Settings</b> > <b>Stream</b>.",
+        "4": "Set Service to <b>Custom</b>.",
+        "5": "Paste the Server URL and Stream Key into their respective fields.",
+        "6": "Save settings and click <b>Start Streaming</b> in your software.",
+        "7": "Your stream will appear on {{platform}} within seconds."
+      },
+      "goToDashboard": "Open {{platform}} Dashboard",
+      "serverUrlLabel": "Server URL:",
+      "streamKeyLabel": "Stream Key:",
+      "saved": "Saved!",
+      "copyButton": "Copy",
+      "noCredentials": "No credentials saved for this platform yet."
+    },
+    "error": {
+      "loadFailed": "Failed to load broadcast list. You may need to re-authenticate.",
+      "fetchKeyFailed": "Failed to fetch stream key.",
+      "noStreamBound": "No associated stream found. This may be an old broadcast.",
+      "scheduleFailed": "Failed to schedule new broadcast.",
+      "transitionFailed": "Failed to change broadcast status to {{status}}.",
+      "authFailed": "Authentication expired. Please sign in again."
+    },
+    "scheduleForm": {
+      "title": "Schedule a New Live Broadcast",
+      "broadcastTitle": "Broadcast Title",
+      "broadcastDescription": "Broadcast Description",
+      "schedule": "Schedule"
+    },
+    "featureDisabled": {
+        "title": "YouTube API Not Configured",
+        "description": "The YouTube integration requires an API Key. You can still use manual RTMP setups for all platforms.",
+        "howToActivate": "To activate this feature, the administrator must configure the <b>YouTube API Client ID</b> and <b>API Key</b>."
+    }
+  },
+  "plans": {
+      "free": {
+          "title": "Basic",
+          "price": "Free",
+          "description": "Start your journey.",
+          "f1": "5 AI Generations / day",
+          "f2": "720p Video Exports",
+          "f3": "Standard Support",
+          "button": "Current Plan"
+      },
+      "pro": {
+          "title": "Pro Creator",
+          "price": "$19/mo",
+          "description": "For serious creators.",
+          "f1": "Unlimited Generations",
+          "f2": "1080p & 4K Video",
+          "f3": "Watermark Removal",
+          "f4": "Premium Voices",
+          "button": "Upgrade to Pro"
+      },
+      "business": {
+          "title": "Enterprise",
+          "price": "Contact Us",
+          "description": "For teams & organizations.",
+          "f1": "Everything in Pro",
+          "f2": "API Access",
+          "f3": "Team Collaboration",
+          "f4": "Dedicated Support",
+          "button": "Contact Sales"
+      }
+  },
+  "subscription": {
+      "title": "Choose Your Plan",
+      "subtitle": "Unlock the full power of AI content creation.",
+      "mostPopular": "Most Popular",
+      "currentPlan": "Current Plan",
+      "enterprise": {
+          "title": "Have a Partner Code?",
+          "desc": "If you are part of a partner organization, enter your voucher code below to unlock premium features."
+      },
+      "couponPlaceholder": "Enter Voucher Code...",
+      "redeem": "Redeem",
+      "couponInvalid": "Invalid Code",
+      "couponSuccess": "Code Redeemed Successfully!"
+  },
+  "installGuide": {
+    "title": "Install Zad AI Studio",
+    "description": "To get the best experience and offline access, install this web application to your device.",
+    "desktop": "Desktop (Chrome/Edge)",
+    "ios": "iOS (Safari)",
+    "android": "Android (Chrome)",
+    "autoInstallButton": "Click to Install Now",
+    "desktopStep1": "Click the install icon in the browser address bar (top right).",
+    "desktopStep2": "Or click the three dots menu > 'Install Zad AI Studio'.",
+    "iosStep1": "Tap the 'Share' button in Safari's menu bar.",
+    "iosStep2": "Scroll down and tap 'Add to Home Screen'.",
+    "iosStep3": "Tap 'Add' in the top right corner.",
+    "androidStep1": "Tap the browser menu (three dots).",
+    "androidStep2": "Tap 'Install App' or 'Add to Home screen'."
+  }
+}
