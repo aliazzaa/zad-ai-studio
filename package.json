@@ -1,28 +1,163 @@
-{
-  "name": "zad-al-yawm",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "deploy": "firebase deploy"
-  },
-  "dependencies": {
-    "@google/genai": "*",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0",
-    "firebase-tools": "^13.0.0"
+<!-- PWA and Mobile App additions -->
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0f766e">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#020617">
+<link rel="apple-touch-icon" href="/icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Zad AI">
+
+<!-- SEO & Social Media Meta Tags -->
+<title>Zad AI Studio | استوديو زاد AI</title>
+<meta name="description" content="An all-in-one AI-powered studio to generate, edit, and produce inspiring Islamic video content for YouTube and social media.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zad-ai-studio.app/">
+<meta property="og:title" content="Zad AI Studio | استوديو زاد AI">
+<meta property="og:description" content="Create inspiring Islamic content with AI. Scripts, Avatars, and Video production in one place.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1564121211835-e88c852648ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://zad-ai-studio.app/">
+<meta property="twitter:title" content="Zad AI Studio | استوديو زاد AI">
+<meta property="twitter:description" content="Create inspiring Islamic content with AI. Scripts, Avatars, and Video production in one place.">
+<meta property="twitter:image" content="https://images.unsplash.com/photo-1564121211835-e88c852648ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        animation: {
+          'marquee': 'marquee 45s linear infinite',
+          'fade-in': 'fadeIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards',
+          'bounce-slow': 'bounce 3s infinite',
+          'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        },
+        keyframes: {
+          marquee: {
+            '0%': { transform: 'translateX(100%)' },
+            '100%': { transform: 'translateX(-100%)' },
+          },
+          fadeIn: {
+            'from': { opacity: '0', transform: 'translateY(15px)' },
+            'to': { opacity: '1', transform: 'translateY(0)' },
+          }
+        }
+      }
+    }
   }
-}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<style>
+    :root {
+        /* World-Class Theme: Modern Islamic Emerald & Gold */
+        --bg-body-light: #f0fdfa;
+        --bg-body-dark: #020617;
+        
+        --glass-border-light: rgba(255, 255, 255, 0.6);
+        --glass-bg-light: rgba(255, 255, 255, 0.7);
+        
+        --glass-border-dark: rgba(255, 255, 255, 0.1);
+        --glass-bg-dark: rgba(15, 23, 42, 0.6);
+
+        --brand-gradient-start: #0f766e; /* Emerald */
+        --brand-gradient-end: #115e59;   /* Deep Teal */
+        --accent-gold: #d4af37;
+    }
+
+    body {
+        font-family: 'Tajawal', sans-serif;
+        transition: background-color 0.5s ease, color 0.3s ease;
+        min-height: 100vh;
+        /* Modern Geometric Islamic Pattern Overlay */
+        background-color: var(--bg-body-light);
+        background-image: 
+            radial-gradient(at 0% 0%, rgba(20, 184, 166, 0.15) 0px, transparent 50%),
+            radial-gradient(at 100% 0%, rgba(212, 175, 55, 0.1) 0px, transparent 50%),
+            url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230f766e' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        background-attachment: fixed;
+    }
+
+    .dark body {
+        background-color: var(--bg-body-dark);
+        background-image: 
+            radial-gradient(at 0% 0%, rgba(20, 184, 166, 0.1) 0px, transparent 50%),
+            radial-gradient(at 100% 0%, rgba(212, 175, 55, 0.05) 0px, transparent 50%),
+            url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2V6h4V4H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    
+    /* Premium Glassmorphism Utilities */
+    .glass-panel {
+        background: var(--glass-bg-light);
+        backdrop-filter: blur(20px) saturate(180%);
+        -webkit-backdrop-filter: blur(20px) saturate(180%);
+        border: 1px solid var(--glass-border-light);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    }
+    
+    .dark .glass-panel {
+        background: var(--glass-bg-dark);
+        border: 1px solid var(--glass-border-dark);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(15, 118, 110, 0.3);
+        border-radius: 10px;
+    }
+    .dark ::-webkit-scrollbar-thumb {
+         background: rgba(255, 255, 255, 0.2);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(15, 118, 110, 0.6);
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(15px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in {
+        animation: fadeIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    }
+
+    /* Shimmer Effect for Premium Buttons */
+    @keyframes shimmer {
+        0% { background-position: -200% 0; }
+        100% { background-position: 200% 0; }
+    }
+    /* Usage: add 'shimmer-btn' class to gradients */
+    .shimmer-btn {
+        position: relative;
+        overflow: hidden;
+    }
+    .shimmer-btn::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, 0.3),
+            transparent
+        );
+        animation: shimmer 3s infinite;
+    }
+</style>
